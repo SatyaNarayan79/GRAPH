@@ -33,3 +33,5 @@ drink.right=cold
 
 print(drink.left) 
 print(hot.val)          
+#show error,     why? cola left has None, None have no attribute error (NoneType) 
+print(cold.left.left.val)
